@@ -37,7 +37,8 @@ result_sum = []
 if __name__ == '__main__':
 
     fig = plt.figure(figsize=(11.69, 8.27))
-    for point in range(0, 1000, 100):
+    n = range(0, 10000, 1000)
+    for point in n:
         array_to_sum = [x for x in range(point)]
         repeats = 100
         # print('while loop')
@@ -69,13 +70,16 @@ if __name__ == '__main__':
     while_patch = mpatches.Patch(color="blue", label="While Loop")
     sum_patch = mpatches.Patch(color="green", label="Sum Loop")
     for2_patch = mpatches.Patch(color="red", label="for loop with range")
-    fig.legend(handles=[for_patch, while_patch, sum_patch, for2_patch], loc=2, fancybox=False, shadow=False, ncol=3,
-               fontsize='small', bbox_to_anchor=(0.1, 0.9))
+    fig.legend(handles=[for_patch, while_patch, sum_patch, for2_patch], loc=2, fancybox=False, shadow=False,
+               fontsize='medium', bbox_to_anchor=(0.1, 0.95))
 
-    plt.plot(result_while)
-    plt.plot(result_for)
-    plt.plot(result_sum)
-    plt.plot(result_for2)
+    plt.ylabel('Time')
+    plt.xlabel('Number')
+
+    plt.plot(n, result_while)
+    plt.plot(n, result_for)
+    plt.plot(n, result_sum)
+    plt.plot(n, result_for2)
     plt.show()
 
     fig.savefig('graph.png', transparent=True)
