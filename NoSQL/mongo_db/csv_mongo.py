@@ -1,25 +1,26 @@
 import csv
 from pymongo import MongoClient
+import datetime
 
 #CSV to JSON Conversion
 csvfile_games = open('games.csv', 'r')
 reader_games = csv.DictReader( csvfile_games )
 csvfile_users = open('users.csv', 'r')
 reader_users = csv.DictReader( csvfile_users)
-mongo_client = MongoClient('')
+mongo_client = MongoClient('mongodb+srv://Harold:RatDeV6Mx6MRaHwR@clusterharold-bl9wd.mongodb.net/test?retryWrites=true&w=majority')
 
 db=mongo_client.myNewDatabase
 db.games.drop()
 db.usersKicker.drop()
-header_game=["teams", "score_team_a", "score_team_b", "date"]
-header_user=["user", 'times played', "times won", "id_user"]
+header_game={"teams": str, "score_team_a": int, "score_team_b": int, "date": str}
+header_user = {"user": str, 'times played': int, "times won": int, "id_user": str}
 header_link=["id_game", "id_user", "team"]
 header_id = "id"
 
 for each in reader_users:
     row={}
-    for field in header_user:
-        row[field]=each[field]
+    for field, v in header_user.items():
+        row[field]= v(each[field])
 
     db.usersKicker.insert_one(row)
 
@@ -28,13 +29,15 @@ for itm in db.usersKicker.find():
    print(itm.get('_id'))
    user_id_dict[itm.get('id_user')] = itm.get("_id")
 
+db.usersKicker.update({}, {"$unset": {"id_user": 1}}, multi=True)
+
 index = 1
 for game in reader_games:
     row={}
     teams = {}
     print("game" + str(index))
     index += 1
-    for field in header_game:
+    for field, v in header_game.items():
         if field == "teams":
             team_a = []
             teams_b = []
@@ -50,7 +53,7 @@ for game in reader_games:
             teams["team_b"] = teams_b
             row["teams"] = teams
         else:
-            row[field] = game[field]
+            row[field] = v(game[field])
 
     db.games.insert_one(row)
 
