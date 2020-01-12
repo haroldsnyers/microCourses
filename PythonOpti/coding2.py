@@ -1,3 +1,26 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# =============================================================================
+__author__ = 'Harold Snyers'
+__course__ = 'Micro Courses'
+# __teammates__ = ['Jeromie Kirchoff']
+__assessment__ = 'Coding 2'
+__title__ = 'Writing time efficient code'
+__date__ = '2020/01/12'
+__description__ = 'Python optimisation showing time optimisation of enumerate, slice ' \
+                  '\n and zip function compared to other methods like while and for loop'
+print('# ' + '=' * 78)
+print('Author: ' + __author__)
+print('Course: ' + __course__)
+print('Assessment: ' + __assessment__)
+print('Title: ' + __title__)
+print('Date: ' + __date__)
+print('Description: ' + __description__)
+print('# ' + '=' * 78)
+
+# =============================================================================
+# Imports
+# =============================================================================
 import timeit
 import itertools
 import time
@@ -66,22 +89,13 @@ def copy_list_list():
 
 
 def iterate_list_enumerate1():
-    # print(list(enumerate(letters, start=1)))
     list(enumerate(letters, start=1))
-
-
-def iterate_list_enumerate3(list_letters):
-    list_new = []
-    for index, item in enumerate(list_letters, 1):
-        list_new.append((index, item))
-    # print(list_new)
 
 
 def iterate_list_enumerate2():
     list_new = []
     for index, item in enumerate(letters, 1):
         list_new.append((index, item))
-    # print(list_new)
 
 
 def iterate_list_for():
@@ -113,7 +127,6 @@ result_copy_list_list = []
 result_copy_list_copy = []
 result_iterate_list_enumerate1 = []
 result_iterate_list_enumerate2 = []
-result_iterate_list_enumerate3 = []
 result_iterate_list_for = []
 result_iterate_list_while = []
 
@@ -130,7 +143,6 @@ if __name__ == '__main__':
     time0 = time.time()
 
     m = range(1, 4000, 200)
-    print(m)
     for n in m:
         print('Number of zipcodes to append : {}'.format(n))
         numbers = [n for n in range(n)]
@@ -209,12 +221,6 @@ if __name__ == '__main__':
         sec1 = t.timeit(repeats)
         result_iterate_list_enumerate2.append(sec)
 
-        t = timeit.Timer('iterate_list_enumerate3(letters)',
-                         setup='from __main__ import iterate_list_enumerate3, letters')
-        sec = t.timeit(repeats_copy) / repeats_copy
-        sec1 = t.timeit(repeats)
-        result_iterate_list_enumerate3.append(sec)
-
         t = timeit.Timer('iterate_list_for()',
                          setup='from __main__ import iterate_list_for')
         sec = t.timeit(repeats_copy) / repeats_copy
@@ -240,14 +246,13 @@ if __name__ == '__main__':
     ax1.plot(m, result_iterate2list_itertools, color="green", label="iterate2list_itertools")
 
     ax2.plot(m, result_copy_list_slice, color="orange", label="copy list: slice()")
-    ax2.plot(m, result_slice_function, color="purple", label="function slice()")
+    # ax2.plot(m, result_slice_function, color="purple", label="function slice()")
     ax2.plot(m, result_copy_list_slice1, color="blue", label="copy list: [:]")
     ax2.plot(m, result_copy_list_copy, color="red", label="copy list: copy()")
     ax2.plot(m, result_copy_list_list, color="green", label="copy list: list()")
 
     ax3.plot(m, result_iterate_list_enumerate1, color="orange", label="enumerate 1 line")
     ax3.plot(m, result_iterate_list_enumerate2, color="blue", label="enumerate loop ")
-    ax3.plot(m, result_iterate_list_enumerate3, color="red", label="enumerate loop with param")
     ax3.plot(m, result_iterate_list_for, color="green", label="iterate loop with for")
     ax3.plot(m, result_iterate_list_while, color="pink", label="iterate loop with while")
 
@@ -256,9 +261,10 @@ if __name__ == '__main__':
     legend3 = ax3.legend(loc='upper left', shadow=True, fontsize='medium', bbox_to_anchor=(0.03, 0.95))
 
     plt.show()
-
-    fig.savefig('graph_effect1.png')
+    graphName = "graphes/graph_coding2(1).png"
+    print('\nSaving graph as ' + graphName)
+    fig.savefig(graphName)
 
     time1 = time.time()
     timeTotal = time1-time0
-    print(timeTotal)
+    print('total execution time: ' + str(timeTotal))

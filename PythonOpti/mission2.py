@@ -4,7 +4,7 @@
 __author__ = 'Harold Snyers'
 __course__ = 'Micro Courses'
 # __teammates__ = ['Jeromie Kirchoff']
-__assessment__ = 'Coding 2'
+__assessment__ = 'Mission 2'
 __title__ = 'Measuring time execution'
 __date__ = '2020/01/12'
 __description__ = 'Python optimisation showing time optimisation of sum \n' \
@@ -12,7 +12,8 @@ __description__ = 'Python optimisation showing time optimisation of sum \n' \
 print('# ' + '=' * 78)
 print('Author: ' + __author__)
 print('Course: ' + __course__)
-print('Laboratory: ' + __assessment__)
+print('Assessment: ' + __assessment__)
+print('Title: ' + __title__)
 print('Date: ' + __date__)
 print('Description: ' + __description__)
 print('# ' + '=' * 78)
@@ -101,4 +102,6 @@ if __name__ == '__main__':
 
     plt.show()
 
-    fig.savefig('graph_opti.png')
+    graphName = "graphes/graph_mission2.png"
+    print('\nSaving graph as ' + graphName)
+    fig.savefig(graphName)

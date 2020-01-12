@@ -12,7 +12,8 @@ __description__ = 'Python optimisation showing time optimisation of sum \n' \
 print('# ' + '=' * 78)
 print('Author: ' + __author__)
 print('Course: ' + __course__)
-print('Laboratory: ' + __assessment__)
+print('Assessment: ' + __assessment__)
+print('Title: ' + __title__)
 print('Date: ' + __date__)
 print('Description: ' + __description__)
 print('# ' + '=' * 78)
@@ -109,7 +110,7 @@ if __name__ == '__main__':
     plt.plot(n, result_for2)
     plt.show()
 
-    graphName = "graph.png"
+    graphName = "graphes/graph_coding1.png"
     print('\nSaving graph as ' + graphName)
     fig.savefig(graphName, transparent=True)
 
