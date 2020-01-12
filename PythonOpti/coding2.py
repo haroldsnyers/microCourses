@@ -35,21 +35,34 @@ def iterate2list_itertools(numbers, letters):
     return zipped
 
 
+def slice_function(end):
+    copie = []
+
+    for i in range(0, end):
+        copie += [numbers[i]]
+
+    return copie
+
+
 def copy_list_slice(end):
     sObject = slice(end)
     a = numbers[sObject]
+    return a
 
 
 def copy_list_slice1(start, end):
     a = numbers[start:end+1]
+    return a
 
 
 def copy_list_copy():
     a = numbers.copy()
+    return a
 
 
 def copy_list_list():
     a = list(numbers)
+    return a
 
 
 def iterate_list_enumerate1():
@@ -94,6 +107,7 @@ result_iterate2list_for_loop = []
 result_iterate2list_itertools_with_for_loop = []
 result_iterate2list_itertools = []
 result_copy_list_slice = []
+result_slice_function = []
 result_copy_list_slice1 = []
 result_copy_list_list = []
 result_copy_list_copy = []
@@ -158,6 +172,12 @@ if __name__ == '__main__':
         sec1 = t.timeit(repeats)
         result_copy_list_slice.append(sec)
 
+        t = timeit.Timer('slice_function(end)',
+                         setup='from __main__ import slice_function, end')
+        sec = t.timeit(repeats_copy) / repeats_copy
+        sec1 = t.timeit(repeats)
+        result_slice_function.append(sec)
+
         t = timeit.Timer('copy_list_slice1(start, end)',
                          setup='from __main__ import copy_list_slice1, start, end')
         sec = t.timeit(repeats_copy) / repeats_copy
@@ -220,6 +240,7 @@ if __name__ == '__main__':
     ax1.plot(m, result_iterate2list_itertools, color="green", label="iterate2list_itertools")
 
     ax2.plot(m, result_copy_list_slice, color="orange", label="copy list: slice()")
+    ax2.plot(m, result_slice_function, color="purple", label="function slice()")
     ax2.plot(m, result_copy_list_slice1, color="blue", label="copy list: [:]")
     ax2.plot(m, result_copy_list_copy, color="red", label="copy list: copy()")
     ax2.plot(m, result_copy_list_list, color="green", label="copy list: list()")

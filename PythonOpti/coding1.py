@@ -1,8 +1,34 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# =============================================================================
+__author__ = 'Harold Snyers'
+__course__ = 'Micro Courses'
+# __teammates__ = ['Jeromie Kirchoff']
+__assessment__ = 'Coding 1'
+__title__ = 'Measuring time execution'
+__date__ = '2020/01/12'
+__description__ = 'Python optimisation showing time optimisation of sum \n' \
+                  '             function compared to while and for loop'
+print('# ' + '=' * 78)
+print('Author: ' + __author__)
+print('Course: ' + __course__)
+print('Laboratory: ' + __assessment__)
+print('Date: ' + __date__)
+print('Description: ' + __description__)
+print('# ' + '=' * 78)
+
+# =============================================================================
+# Imports
+# =============================================================================
 import timeit
 import profile
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+
+# =============================================================================
+# Code
+# =============================================================================
 
 
 def while_loop(array):
@@ -39,6 +65,7 @@ if __name__ == '__main__':
     fig = plt.figure(figsize=(11.69, 8.27))
     n = range(0, 10000, 1000)
     for point in n:
+        print("Compute of elements of given list of size " + str(point))
         array_to_sum = [x for x in range(point)]
         repeats = 100
         # print('while loop')
@@ -82,4 +109,7 @@ if __name__ == '__main__':
     plt.plot(n, result_for2)
     plt.show()
 
-    fig.savefig('graph.png', transparent=True)
+    graphName = "graph.png"
+    print('\nSaving graph as ' + graphName)
+    fig.savefig(graphName, transparent=True)
+
