@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15f59b5a-ecfe-4d06-a461-878da487e744" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PythonOpti/coding2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonOpti/coding2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonOpti/mission2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonOpti/mission2.py" afterDir="false" />
-    </list>
+    <list default="true" id="15f59b5a-ecfe-4d06-a461-878da487e744" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/PythonOpti/coding1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1938">
-              <caret line="114" column="43" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="43" />
+              <caret line="114" column="43" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="43" />
               <folding>
                 <element signature="e#956#969#0" expanded="true" />
               </folding>
@@ -42,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/PythonOpti/test1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="933">
-              <caret line="164" column="34" lean-forward="true" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+              <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/PythonOpti/mission2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
-              <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -66,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/PythonOpti/coding2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2327">
-              <caret line="241" column="26" lean-forward="true" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
+              <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -78,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/PythonOpti/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -154,7 +151,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/MA1-Computer_science/I4100 GPU computing/Algorithm and Optimisation/Microcours/PythonOptimisation" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/MA1-Computer_science/I4100 GPU computing/Algorithm and Optimisation/Microcours/RainBowTable/mission2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -313,12 +310,12 @@
       <workItem from="1577057426926" duration="599000" />
       <workItem from="1577060358590" duration="8584000" />
       <workItem from="1577572189630" duration="4047000" />
-      <workItem from="1578776726382" duration="21224000" />
+      <workItem from="1578776726382" duration="21248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77412000" />
+    <option name="totallyTimeSpent" value="77436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-6" width="1479" height="877" extended-state="6" />
@@ -328,7 +325,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48728245" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48728245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/PythonOpti/mission2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
-          <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -412,7 +409,7 @@
     <entry file="file://$PROJECT_DIR$/PythonOpti/coding1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
-          <caret line="114" column="43" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="43" />
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="43" />
           <folding>
             <element signature="e#956#969#0" expanded="true" />
           </folding>
@@ -422,7 +419,7 @@
     <entry file="file://$PROJECT_DIR$/PythonOpti/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="933">
-          <caret line="164" column="34" lean-forward="true" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+          <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -432,14 +429,14 @@
     <entry file="file://$PROJECT_DIR$/PythonOpti/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonOpti/coding2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2327">
-          <caret line="241" column="26" lean-forward="true" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
+          <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
