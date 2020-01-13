@@ -22,6 +22,7 @@ print('# ' + '=' * 78)
 # Imports
 # =============================================================================
 import timeit
+import profile
 import itertools
 import time
 
@@ -29,8 +30,6 @@ import matplotlib.pyplot as plt
 
 
 def iterate2list_zip():
-    # for f, b in zip(numbers, letters):
-    #     print(f, b)
     zipped = zip(numbers, letters)
 
     return list(zipped)
@@ -114,6 +113,11 @@ def iterate_list_while():
         list_new.append((i, letters[i]))
         i += 1
     # print(list_new)
+
+
+def test():
+    iterate_list_for()
+    iterate_list_enumerate2()
 
 
 result_iterate2list_zip = []
@@ -233,6 +237,8 @@ if __name__ == '__main__':
         sec1 = t.timeit(repeats)
         result_iterate_list_while.append(sec)
 
+        profile.run("for i in range (1000) : test() ")
+
     ax1.set_ylabel('Time')
     ax1.set_xlabel('Number')
     ax2.set_ylabel('Time')
@@ -246,7 +252,7 @@ if __name__ == '__main__':
     ax1.plot(m, result_iterate2list_itertools, color="green", label="iterate2list_itertools")
 
     ax2.plot(m, result_copy_list_slice, color="orange", label="copy list: slice()")
-    # ax2.plot(m, result_slice_function, color="purple", label="function slice()")
+    ax2.plot(m, result_slice_function, color="purple", label="function slice()")
     ax2.plot(m, result_copy_list_slice1, color="blue", label="copy list: [:]")
     ax2.plot(m, result_copy_list_copy, color="red", label="copy list: copy()")
     ax2.plot(m, result_copy_list_list, color="green", label="copy list: list()")
@@ -261,9 +267,9 @@ if __name__ == '__main__':
     legend3 = ax3.legend(loc='upper left', shadow=True, fontsize='medium', bbox_to_anchor=(0.03, 0.95))
 
     plt.show()
-    graphName = "graphes/graph_coding2(1).png"
+    graphName = "graphes/graph_coding2.png"
     print('\nSaving graph as ' + graphName)
-    fig.savefig(graphName)
+    fig.savefig(graphName, transparent=True)
 
     time1 = time.time()
     timeTotal = time1-time0

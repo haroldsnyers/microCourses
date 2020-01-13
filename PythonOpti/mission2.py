@@ -104,4 +104,4 @@ if __name__ == '__main__':
 
     graphName = "graphes/graph_mission2.png"
     print('\nSaving graph as ' + graphName)
-    fig.savefig(graphName)
+    fig.savefig(graphName, transparent=True)
