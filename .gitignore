@@ -130,7 +130,5 @@ dmypy.json
 
 
 *.png
-*.txt
-*.csv
 
 node_modules
