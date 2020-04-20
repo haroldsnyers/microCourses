@@ -1,0 +1,9 @@
+aa:$argon2id$v=19$m=102400,t=2,p=8$cGtLE/l/mSUwcfu7ET/U5g$WYWRKq31tHFu0LQOc3xNeQ
+ab:$argon2id$v=19$m=102400,t=2,p=8$5p4bYADOICMNgMxjmva7Ug$4SGKe1VfoAFQoWbmMYXYrg
+bb:$argon2id$v=19$m=102400,t=2,p=8$9R1m6KJA2bRkon+ETeTtFg$OuWPOaCy6qRvkTsggVJzXg
+aaa:$argon2id$v=19$m=102400,t=2,p=8$y+5k3Ejk40HmSaO1QWj2Qg$F1QAwo7BPe0PDw12GPH+nA
+aab:$argon2id$v=19$m=102400,t=2,p=8$8o22i2uP1oGv1I0tyrmeYg$JayHl0+xIuMX0hR9PYN3ag
+aba:$argon2id$v=19$m=102400,t=2,p=8$MobkcsELnQpW6rSwTZZ47g$niDKtOUzt+tyTnArkmt2Cg
+baa:$argon2id$v=19$m=102400,t=2,p=8$vx6Rrx3JepzJwaTm4XEgjg$a/eYeH9FEAB0LWyOk0lWTQ
+bab:$argon2id$v=19$m=102400,t=2,p=8$eW1SOrCSp8zDM2iUdGAgtA$y5JWKkotklYZ3B8OSL8LcQ
+bba:$argon2id$v=19$m=102400,t=2,p=8$fyQuJdzO3l8JziJ0F9hquA$Anxk80b7GGyaet4SvUaXCQ
