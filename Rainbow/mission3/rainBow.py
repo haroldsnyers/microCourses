@@ -22,7 +22,6 @@ class RainbowGenerator:
     def hashWord(self, word):
         return lmhash.hash(word)
 
-
     def reduce_one(self, int):
         pwd = ""
         while len(pwd)<7:
