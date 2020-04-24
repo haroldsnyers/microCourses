@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f59b5a-ecfe-4d06-a461-878da487e744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Coding2/hashChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Coding2/hashChain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/RainbowTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission 3/RainbowTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/hash_table.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/rainTable.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/rain_table.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/word_table.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/mission2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/mission2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/LMhash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/LMhash.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/NTLMhash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/NTLMhash.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/passwordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/passwordGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordPrediction/Coding1/Texts/text1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +33,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>timeit</find>
-      <find>default_number</find>
-      <find>rows</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,6 +46,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -74,7 +61,7 @@
       <recent name="C:\GitHub\Ecam_MA1\MicroCourses\mongo_db\downloads" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rainBow">
+  <component name="RunManager" selected="Python.corpustats">
     <configuration name="coding2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mission2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="corpustats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,12 +92,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonOpti" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordPrediction/Coding1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonOpti/mission2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.corpustats" />
         <item itemvalue="Python.rainBow" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.passwordGenerator" />
         <item itemvalue="Python.coding2" />
-        <item itemvalue="Python.mission2" />
       </list>
     </recent_temporary>
   </component>
@@ -215,11 +202,36 @@
       <workItem from="1578957933090" duration="6329000" />
       <workItem from="1578976876891" duration="1426000" />
       <workItem from="1579017400012" duration="1205000" />
-      <workItem from="1587738496064" duration="485000" />
+      <workItem from="1587738496064" duration="5145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1161" y="-748" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587739790135">
+      <screen x="937" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="1161" y="-748" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1587739790135" />
+    <state width="857" height="252" key="GridCell.Tab.0.bottom" timestamp="1587743704668">
+      <screen x="937" y="-1080" width="1920" height="1050" />
+    </state>
+    <state width="857" height="252" key="GridCell.Tab.0.bottom/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1587743704668" />
+    <state width="857" height="252" key="GridCell.Tab.0.center" timestamp="1587743704668">
+      <screen x="937" y="-1080" width="1920" height="1050" />
+    </state>
+    <state width="857" height="252" key="GridCell.Tab.0.center/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1587743704668" />
+    <state width="857" height="252" key="GridCell.Tab.0.left" timestamp="1587743704668">
+      <screen x="937" y="-1080" width="1920" height="1050" />
+    </state>
+    <state width="857" height="252" key="GridCell.Tab.0.left/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1587743704668" />
+    <state width="857" height="252" key="GridCell.Tab.0.right" timestamp="1587743704668">
+      <screen x="937" y="-1080" width="1920" height="1050" />
+    </state>
+    <state width="857" height="252" key="GridCell.Tab.0.right/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1587743704668" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MicroCourses$corpustats.coverage" NAME="corpustats Coverage Results" MODIFIED="1587743700896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding1" />
   </component>
 </project>
