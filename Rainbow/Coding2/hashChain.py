@@ -26,9 +26,9 @@ class HashChain:
 
     def reduce(self, int_, index):
         pwd = ""
-        while len(pwd) < self.size:
-            pwd = pwd + self.characters_list[(index + int_) % self.password_length]
-            int_ = int_ // self.password_length
+        while len(pwd) < self.password_length:
+            pwd = pwd + self.characters_list[(index + int_) % len(self.characters)]
+            int_ = int_ // len(self.characters)
         return pwd
 
     def generate_chain(self, password):

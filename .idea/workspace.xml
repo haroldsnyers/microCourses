@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f59b5a-ecfe-4d06-a461-878da487e744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Rainbow/mission3/rainBow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MicroCourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MicroCourses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Coding2/hashChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Coding2/hashChain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/RainbowTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission 3/RainbowTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/hash_table.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/rainTable.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/rain_table.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Mission 3/word_table.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/mission2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/mission2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/LMhash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/LMhash.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/NTLMhash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/NTLMhash.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/mission2/passwordGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission2/passwordGenerator.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,55 +38,6 @@
     <SUITE FILE_PATH="coverage/MicroCourses$PythonOpti.coverage" NAME="PythonOpti Coverage Results" MODIFIED="1578781288978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonOpti" />
     <SUITE FILE_PATH="coverage/MicroCourses$legend.coverage" NAME="legend Coverage Results" MODIFIED="1576890237165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rainbow/mission3/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2329">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rainbow/mission3/RainbowGenerator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="35" column="77" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rainbow/mission3/rainBow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rainbow/mission3/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rainbow/mission3/testRainbow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -94,72 +55,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/mongo_db/csv_mongo.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/PythonOpti.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/PythonEff.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/test.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/MeasureTime.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/PythonOptimisation.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/coding1.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/mission2.py" />
-        <option value="$PROJECT_DIR$/PythonOpti/coding2.py" />
-        <option value="$PROJECT_DIR$/Rainbow/mission3/test.py" />
-        <option value="$PROJECT_DIR$/Rainbow/mission3/test1.py" />
-        <option value="$PROJECT_DIR$/Rainbow/mission3/testRainbow.py" />
-        <option value="$PROJECT_DIR$/Rainbow/mission3/RainbowGenerator.py" />
-        <option value="$PROJECT_DIR$/Rainbow/mission3/test.txt" />
-        <option value="$PROJECT_DIR$/Rainbow/mission3/rainBow.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="160" />
-    <option name="y" value="-15" />
-    <option name="width" value="1865" />
-    <option name="height" value="2193" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MicroCourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MicroCourses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroCourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MicroCourses" type="462c0819:PsiDirectoryNode" />
-              <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroCourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MicroCourses" type="462c0819:PsiDirectoryNode" />
-              <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
-              <item name="mission2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroCourses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MicroCourses" type="462c0819:PsiDirectoryNode" />
-              <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
-              <item name="mission3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1azVdGkz6kJLgfXgdGLbAb8qwKt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageTreatment/Jupyter/monkey" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -168,18 +73,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitHub\Ecam_MA1\MicroCourses\mongo_db\downloads" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.rainBow">
     <configuration name="coding2" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -322,154 +215,11 @@
       <workItem from="1578957933090" duration="6329000" />
       <workItem from="1578976876891" duration="1426000" />
       <workItem from="1579017400012" duration="1205000" />
+      <workItem from="1587738496064" duration="485000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86396000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="64" y="-6" width="1479" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13511612" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29585007" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.16889514" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mongo_db/downloads/combined_csv_murata_ZB10351.csv" />
-    <entry file="file://$PROJECT_DIR$/mongo_db/MOCK_DATA.csv" />
-    <entry file="file://$PROJECT_DIR$/mongo_db/linkUsers.csv" />
-    <entry file="file://$PROJECT_DIR$/mongo_db/games.csv" />
-    <entry file="file://$PROJECT_DIR$/mongo_db/users.csv" />
-    <entry file="file://$PROJECT_DIR$/mongo_db/csv_mongo.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/timeit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="58" column="14" selection-start-line="58" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/untitled/venv/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="2807" column="4" selection-start-line="2807" selection-start-column="4" selection-end-line="2807" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/legend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonOpti/graph.png" />
-    <entry file="file://$PROJECT_DIR$/PythonOpti/graph_effect1.png" />
-    <entry file="file://$PROJECT_DIR$/PythonOpti/graph_opti.png" />
-    <entry file="file://$PROJECT_DIR$/PythonOpti/graph_effect.png" />
-    <entry file="file://$USER_HOME$/Downloads/Coding1.py" />
-    <entry file="file://$PROJECT_DIR$/PythonOpti/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="164" column="34" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonOpti/mission2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonOpti/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonOpti/coding2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonOpti/coding1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="114" column="43" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rainbow/mission2/passwordGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rainbow/mission3/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rainbow/mission3/rainBow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rainbow/mission3/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rainbow/mission3/testRainbow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rainbow/mission3/RainbowGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="35" column="77" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
