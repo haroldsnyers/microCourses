@@ -1,5 +1,6 @@
 import bcrypt
 from argon2 import PasswordHasher
+# set other environment for argon2
 
 """
     encryption password with bcrypt 
