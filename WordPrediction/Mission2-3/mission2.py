@@ -1,4 +1,4 @@
-from nltk import bigrams, tokenize
+from nltk import bigrams, tokenize, everygrams
 from nltk.lm.preprocessing import flatten, pad_both_ends
 import random
 from nltk.lm import MLE
@@ -104,18 +104,18 @@ def print_out_results(tokenized_text_out, tokens_list_out, n, text_begin_out, st
     return model
 
 
-def test_PP(model, test_file=1):
+def test_PP(n_gram, model, test_file=1):
     if test_file == 1:
-        test_sentences = ['he thought about a spoon', 'the eggs', "the spoon", "he thought about"]
+        test_sentences = ['he thought about a spoon', 'the eggs with dishwashing soap', "a plate with a spoon", "he thought about"]
     else:
-        test_sentences = ['people like food', 'like food', 'like people']
-    tokens_list, tokenized_text = prepare_text(test_sentences, text_file=0)
+        test_sentences = ['people like chinese food', 'chinese people like dogs', 'i like chinese people', 'dogs like food and cats']
 
-    test_data = [bigrams(t) for t in tokenized_text]
+    test_data = [list(everygrams(t.lower().split(" "), min_len=n_gram, max_len=n_gram)) for t in test_sentences]
 
     for test in test_data:
         test_1 = list(test)
-        print("\nMLE Estimates for {0} with score: {1}".format([(ngram[-1], ngram[:-1]) for ngram in test_1],
+        print("\n" + str(test_1))
+        print("MLE Estimates for {0} with score: {1}".format([(ngram[-1], ngram[:-1]) for ngram in test_1],
                                                              [model.score(ngram[-1], ngram[:-1]) for ngram in
                                                               test_1]))
 
@@ -124,7 +124,7 @@ def test_PP(model, test_file=1):
 
 
 # Chinese
-text_chinese = ['i like chinese food', 'chinese people like food']
+text_chinese = ['i like chinese food', 'chinese people like food', 'people like dogs and cats', 'dogs like to be walked']
 tokens_list, tokenized_text = prepare_text(text_chinese, text_file=0)
 
 print("\n" + "#"*100)
@@ -136,7 +136,7 @@ text_begin = ["like"]
 start_phr = ["like"]
 word_end = "chinese"
 model_2_food = print_out_results(tokenized_text, tokens_list, n, text_begin, start_phr, word_end, number_sentences=20, maxi=False)
-test_PP(model_2_food, test_file=0)
+test_PP(n, model_2_food, test_file=0)
 
 print("\n" + "#"*100)
 
@@ -146,7 +146,7 @@ text_begin = ["like", "chinese"]
 start_phr = ['i', "like"]
 word_end = "chinese"
 model_3_food = print_out_results(tokenized_text, tokens_list, n, text_begin, start_phr, word_end, number_sentences=20, maxi=False)
-test_PP(model_3_food, test_file=0)
+test_PP(n, model_3_food, test_file=0)
 
 print("\n" + "#"*100)
 
@@ -157,7 +157,7 @@ text_begin = ["like", "chinese", "food"]
 start_phr = ['i', "like"]
 word_end = "chinese"
 model_4_food = print_out_results(tokenized_text, tokens_list, n, text_begin, start_phr, word_end, number_sentences=20, maxi=False)
-test_PP(model_4_food, test_file=0)
+test_PP(n, model_4_food, test_file=0)
 
 # food
 text_food = open("text.txt").read().replace(". ", ".").lower().replace("\n", " ")
@@ -172,7 +172,7 @@ start_phr = ["thought"]
 word_end = "about"
 model_2 = print_out_results(tokenized_text, tokens_list, n, text_begin, start_phr, word_end, number_sentences=20, maxi=False)
 # model_2 = print_out_results(tokenized_text, tokens_list, n, text_begin, start_phr, word_end, number_sentences=10, maxi=True)
-# test_PP(model_2)
+test_PP(n, model_2)
 
 print("\n" + "#"*100)
 
@@ -182,7 +182,7 @@ text_begin = ["he", "poured"]
 start_phr = ['he', "thought"]
 word_end = "about"
 model_3 = print_out_results(tokenized_text, tokens_list, n, text_begin, start_phr, word_end, number_sentences=20, maxi=False)
-test_PP(model_3)
+test_PP(n, model_3)
 
 print("\n" + "#"*100)
 

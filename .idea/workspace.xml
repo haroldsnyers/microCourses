@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f59b5a-ecfe-4d06-a461-878da487e744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BlockChain/Coding1/Coding1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlockChain/Mission1/mission1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlockChain/Mission2/mission2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MicroCourses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MicroCourses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordPrediction/Mission2-3/text1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission1/mission1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission1/mission1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordPrediction/Coding2/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Coding2/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordPrediction/Mission2/mission2.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Mission2/mission2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rainbow/Coding2/hashChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Coding2/hashChain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordPrediction/Mission2/mission2.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Mission2-3/mission2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordPrediction/Mission2/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Mission2-3/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <recent name="C:\GitHub\Ecam_MA1\MicroCourses\mongo_db\downloads" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mission1">
+  <component name="RunManager" selected="Python.mission2 (2)">
     <configuration name="Coding1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +131,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mission2 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MicroCourses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordPrediction/Mission2-3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordPrediction/Mission2-3/mission2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mission2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,35 +175,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nGram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MicroCourses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordPrediction/Mission2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordPrediction/Mission2/nGram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mission2 (2)" />
         <item itemvalue="Python.mission1" />
         <item itemvalue="Python.mission2 (1)" />
         <item itemvalue="Python.Coding1" />
         <item itemvalue="Python.mission2" />
-        <item itemvalue="Python.nGram" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +208,7 @@
       <workItem from="1587738496064" duration="26339000" />
       <workItem from="1587912576353" duration="25806000" />
       <workItem from="1588004027090" duration="39631000" />
+      <workItem from="1588166162527" duration="6338000" />
     </task>
     <servers />
   </component>
@@ -227,43 +224,43 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="308" y="299" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1588119437475" />
-    <state width="883" height="173" key="GridCell.Tab.0.bottom" timestamp="1588119775138">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1588182295576">
+      <screen x="933" y="-1080" width="1920" height="1050" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963472" />
     <state width="1815" height="250" key="GridCell.Tab.0.bottom/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
-    <state width="912" height="252" key="GridCell.Tab.0.bottom/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1587820496381" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588182295576" />
     <state width="1237" height="152" key="GridCell.Tab.0.bottom/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142084" />
     <state width="912" height="173" key="GridCell.Tab.0.bottom/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="883" height="173" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588119775138" />
-    <state width="883" height="173" key="GridCell.Tab.0.center" timestamp="1588119775137">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1588182295576">
+      <screen x="933" y="-1080" width="1920" height="1050" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.center/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.center/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963472" />
     <state width="1815" height="250" key="GridCell.Tab.0.center/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
-    <state width="912" height="252" key="GridCell.Tab.0.center/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1587820496381" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588182295576" />
     <state width="1237" height="152" key="GridCell.Tab.0.center/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142083" />
     <state width="912" height="173" key="GridCell.Tab.0.center/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="883" height="173" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588119775137" />
-    <state width="883" height="173" key="GridCell.Tab.0.left" timestamp="1588119775137">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1588182295576">
+      <screen x="933" y="-1080" width="1920" height="1050" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.left/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.left/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963471" />
     <state width="1815" height="250" key="GridCell.Tab.0.left/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
-    <state width="912" height="252" key="GridCell.Tab.0.left/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1587820496380" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588182295576" />
     <state width="1237" height="152" key="GridCell.Tab.0.left/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142083" />
     <state width="912" height="173" key="GridCell.Tab.0.left/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="883" height="173" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588119775137" />
-    <state width="883" height="173" key="GridCell.Tab.0.right" timestamp="1588119775138">
-      <screen x="62" y="0" width="1858" height="1080" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1588182295576">
+      <screen x="933" y="-1080" width="1920" height="1050" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.right/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.right/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963472" />
     <state width="1815" height="250" key="GridCell.Tab.0.right/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
-    <state width="912" height="252" key="GridCell.Tab.0.right/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1587820496381" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588182295576" />
     <state width="1237" height="152" key="GridCell.Tab.0.right/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142084" />
     <state width="912" height="173" key="GridCell.Tab.0.right/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="883" height="173" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588119775138" />
@@ -274,12 +271,13 @@
     <state x="62" y="176" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1588119742149" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MicroCourses$mission2__2_.coverage" NAME="mission2 (2) Coverage Results" MODIFIED="1588182295569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Mission2-3" />
     <SUITE FILE_PATH="coverage/MicroCourses$mission2.coverage" NAME="mission2 Coverage Results" MODIFIED="1588034199869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Mission2" />
     <SUITE FILE_PATH="coverage/MicroCourses$nGram.coverage" NAME="nGram Coverage Results" MODIFIED="1587775617562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Mission2" />
     <SUITE FILE_PATH="coverage/MicroCourses$mission2__1_.coverage" NAME="mission2 (1) Coverage Results" MODIFIED="1588117751697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Mission2" />
     <SUITE FILE_PATH="coverage/MicroCourses$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1587747920366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding2" />
     <SUITE FILE_PATH="coverage/MicroCourses$Coding1.coverage" NAME="Coding1 Coverage Results" MODIFIED="1588092187551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Coding1" />
-    <SUITE FILE_PATH="coverage/MicroCourses$mission1.coverage" NAME="mission1 Coverage Results" MODIFIED="1588117757380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Mission1" />
+    <SUITE FILE_PATH="coverage/MicroCourses$mission1.coverage" NAME="mission1 Coverage Results" MODIFIED="1588180240098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Mission1" />
     <SUITE FILE_PATH="coverage/MicroCourses$corpustats.coverage" NAME="corpustats Coverage Results" MODIFIED="1587743700896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding1" />
     <SUITE FILE_PATH="coverage/MicroCourses$pygramodel.coverage" NAME="pygramodel Coverage Results" MODIFIED="1587761771859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding2" />
   </component>
