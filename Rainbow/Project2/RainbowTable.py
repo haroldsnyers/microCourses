@@ -38,7 +38,15 @@ class RainbowGenerator:
         return ''.join(random.choice(self.chars) for _ in range(self.password_max_size))
 
     def generates_list_words(self):
-        return [self.password_generator() for x in range(self.rows)]
+        """
+            generates a list (nop duplicates) of password of a given size
+            :returns password list to generate rainbow table from
+        """
+        while len(self.passwords) < self.rows:
+            word = self.password_generator()
+            if word not in self.passwords:
+                self.passwords += word
+        return self.passwords
 
     def hash_word(self, word):
         """
@@ -68,9 +76,7 @@ class RainbowGenerator:
 
     def build_table(self):
         """
-        list: passwords list to make the rainbow table from
-        Returns generated rainbow table and list of hashes and words that the
-            rainbow table covers
+        Buils rainbow table by generating chain for each password of the list of passwords
         """
         for password in self.passwords:
             self.create_chain(password)
@@ -78,8 +84,10 @@ class RainbowGenerator:
     def create_chain(self, pwd):
         """
         pwd: password to begin the chain with
-        Returns chain for each password given and returns a separate
-            list of passwords and hashes contained in this chain
+        3 tables are important here
+            - word table that contains every word that is being covered by this rainbow table
+            - hash table is every hash that's being covered by this rainbowtable
+            - rain table is a table containing the last hash of a chain
         """
         a = pwd
         self.word_table.append(a)
@@ -99,8 +107,11 @@ class RainbowGenerator:
         Returns the resulting password and null if not found
 
         """
+        # starting crack at the end column of rainbow table and going over
         for col in range(self.columns, -1, -1):
+            # find final hash of chain
             word_hash = self.get_last_hash(start_hash, col)
+            # find password corresponding to final hash in rainbow table
             pwd_list = self._find(word_hash)
             # print('# col', col, "\n# word hash: ", word_hash, '\n# pwd_list: ', pwd_list)
             for pwd in pwd_list:
@@ -150,6 +161,12 @@ class RainbowGenerator:
         return None
 
     def write_to_file(self):
+        """
+        writes down 2 different text files
+            - rainbow table text file containing the table made of the first password and last hash of the chain
+              and the number of password that are covered and tested and the success ratio of these test
+            - textfile containing all the passwords covered in this rainbow table
+        """
         open("RainbowTables\\rainbow_table-{}-{}.txt".format(self.password_max_size, self.rows), "w") \
             .write(json.dumps(
                 {
@@ -166,6 +183,12 @@ class RainbowGenerator:
         print("# RainbowTable created")
 
     def recover_rainbow_table(self, copy=0):
+        """
+        method to recover or not a rainbow table that's already been generated with same features
+        (keep in mind that for now passwords are being randomly generated and thus never the same
+        :param copy: possible argument if the user wants to do a copy of the file but not implemented for now
+        :return: true if a rainbow table exists and false if not and thus a new rainbow table needs to be generated
+        """
         if "rainbow_table-{}-{}.txt".format(self.password_max_size, self.rows) in os.listdir("RainbowTables"):
             dico = json.loads(open("RainbowTables\\rainbow_table-{}-{}.txt".format(self.password_max_size, self.rows), "r").read())
             self.rain_table = dico["hashs"]
@@ -189,6 +212,9 @@ class RainbowGenerator:
             return False
 
     def test_collisions(self):
+        """
+        tests if rainbow table contains collisions and how many collision there are
+        """
         test = len(self.hash_table) != len(set(self.hash_table))
         print("This table contains collisions : " + str(test))
         if test:
@@ -196,7 +222,12 @@ class RainbowGenerator:
             print("Total Collisions is :" + (str(self.collisions)))
 
     def test_rain(self):
-        """ Test how good rainbow table is working
+        """
+        Test how good rainbow table is working, meaning if rainbow table is able to crack a hash a password from word
+        list
+        for every word in the list, hashes the password and tries to crack it, if the returned password is equal to the
+        initial password, means it worked and success count is incremented
+        displays finally the results of the test
         """
         words_to_test = self.word_table
         count = 0
@@ -214,6 +245,9 @@ class RainbowGenerator:
               '\nSucces ratio: ', self.success_ratio, '%')
 
     def test_rain_word_not_in_list(self):
+        """
+        method that shows that a password not in the list cannot be cracked
+        """
         word = None
         ok = False
         while ok is False:
@@ -223,6 +257,9 @@ class RainbowGenerator:
         print("The word " + word + " was " + rain.crack_hashed_pwd(rain.hash_word(word)))
 
     def test_rain_with_word_in_list(self):
+        """
+        method that shows that any password in the word list can be cracked
+        """
         word = random.choice(self.word_table)
         print("The word for the hash " + rain.hash_word(word) + " was " + rain.crack_hashed_pwd(rain.hash_word(word)))
 
