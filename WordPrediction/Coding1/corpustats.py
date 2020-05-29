@@ -11,6 +11,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print("Analyzing file : " + args.file)
+    # removes the "next line" tag and replaces all special characters with a space
     text = open(args.file, "r").read().lower().replace("\n", " ").translate({ord(c): " " for c in "!@#$%^&*()\"[]{};:,./<>?\|`~-=_+"})
     text = text.split(" ")
     dico = {}

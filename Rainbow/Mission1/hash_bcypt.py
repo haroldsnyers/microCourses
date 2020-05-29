@@ -9,7 +9,7 @@ salts = []
 for password in passwords:
     print('first password')
     """ Salt rounds to increase the time it takes to generate a hash"""
-    salt = bcrypt.gensalt(rounds=16)
+    salt = bcrypt.gensalt(rounds=4)
     # salt = bcrypt.gensalt()
     hash = bcrypt.hashpw(password.encode('utf8'), salt)
     hashes1.append(hash)
@@ -35,8 +35,6 @@ for line in f:
         user_name = username
         hash_user = user[1]
         salt_user = user[2]
-        result = True
-        result1 = True
 
 if user_name is not None:
     new_hash = bcrypt.hashpw(pwd.encode(), salt_user.encode('utf8'))

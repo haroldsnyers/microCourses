@@ -22,11 +22,11 @@ class Block:
         """
             A function that return the hash of the block contents.
         """
-        block_string = json.dumps(self.__dict__, sort_keys=True)
+        block_string = self.return_dict()
         return sha256(block_string.encode()).hexdigest()
 
     def compute_encryption(self, public_key):
-        block_string = json.dumps(self.__dict__, sort_keys=True)
+        block_string = self.return_dict()
         cipher = rsa.encrypt(block_string.encode(), public_key)
         return base64.b64encode(cipher).decode()
 
@@ -41,8 +41,6 @@ class GenesisBlock(Block):
 
 
 class BlockChain:
-    # difficulty of our PoW algorithm
-    difficulty = 2
 
     def __init__(self, name, encrypt=None):
         self.name = name
@@ -67,8 +65,6 @@ class BlockChain:
         :param data: transaction data
         :return: True
         """
-        # if not self.is_valid:
-        #     return False
         last_block = self.last_block
         new_block = Block(index=last_block.index + 1,
                           timestamp=time.time(),
@@ -161,7 +157,8 @@ if __name__ == '__main__':
     print("\n" + "#"*120)
     print("\nBlockChain with encryption for content")
 
-    publicKey, privateKey = rsa.newkeys(1024)
+    publicKey, privateKey = rsa.newkeys(2048)
+    print(privateKey)
 
     block_chain = BlockChain('CombéCoin', encrypt=publicKey)
     print(block_chain)
@@ -175,5 +172,7 @@ if __name__ == '__main__':
 
     block_chain.show_blocks()
     block_chain.show_blocks(privateKey)
+    block_chain.show_blocks()
+    block_chain.show_blocks(1345435646748657878678)
 
 
