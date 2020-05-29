@@ -4,7 +4,7 @@ import time
 
 
 # Build and return a list
-@profile
+# @profile
 def calculate_first_n(n):
     num, nums = 0, []
     while num < n:
@@ -13,9 +13,11 @@ def calculate_first_n(n):
     return nums
 
 
+n = 1_000_000
+
 memory_first_1 = memory_profiler.memory_usage()
 time_first_1 = time.time()
-sum_of_first_n = sum(calculate_first_n(1000000))
+sum_of_first_n = sum(calculate_first_n(n))
 time_first_2 = time.time()
 memory_first_2 = memory_profiler.memory_usage()
 time_difference = time_first_2 - time_first_1
@@ -34,7 +36,7 @@ def calculate_first_n_gen(n):
 
 memory_first_gen_1 = memory_profiler.memory_usage()
 time_first_gen_1 = time.time()
-sum_of_first_n_gen = sum(calculate_first_n_gen(1000000))
+sum_of_first_n_gen = sum(calculate_first_n_gen(n))
 time_first_gen_2 = time.time()
 memory_first_gen_2 = memory_profiler.memory_usage()
 time_difference_gen = time_first_gen_2 - time_first_gen_1

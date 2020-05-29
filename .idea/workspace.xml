@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f59b5a-ecfe-4d06-a461-878da487e744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BlockChain/Mission2/mission2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordPrediction/Mission2-3/Mission3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordPrediction/Project1/project1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WordPrediction/Project1/text1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockChain/Coding1/Coding1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockChain/Coding1/Coding1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission1/hash_bcrypt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission1/hash_bcrypt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rainbow/Mission1/hash_bcypt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rainbow/Mission1/hash_bcypt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Coding1/corpustats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordPrediction/Coding2/pygramodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Coding2/pygramodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordPrediction/Mission2-3/mission2.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordPrediction/Mission2-3/mission2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOpti/Coding3/coding3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonOpti/Coding3/coding3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonOpti/Coding4/coding4.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonOpti/Coding4/coding4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,7 @@
       <recent name="C:\GitHub\Ecam_MA1\MicroCourses\PythonOpti\Coding1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Coding1">
+  <component name="RunManager" selected="Python.coding4">
     <configuration name="Coding1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hash_bcypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="coding2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,12 +99,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rainbow/Mission1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonOpti/Coding2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rainbow/Mission1/hash_bcypt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonOpti/Coding2/coding2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mission1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="coding3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MicroCourses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,12 +121,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BlockChain/Mission1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonOpti/Coding3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BlockChain/Mission1/mission1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonOpti/Coding3/coding3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coding4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MicroCourses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonOpti/Coding4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonOpti/Coding4/coding4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,35 +179,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="project1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MicroCourses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordPrediction/Project1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordPrediction/Project1/project1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coding4" />
+        <item itemvalue="Python.coding3" />
+        <item itemvalue="Python.coding2" />
         <item itemvalue="Python.Coding1" />
         <item itemvalue="Python.mission2_1" />
-        <item itemvalue="Python.mission1" />
-        <item itemvalue="Python.hash_bcypt" />
-        <item itemvalue="Python.project1" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +220,7 @@
       <workItem from="1589657850096" duration="358000" />
       <workItem from="1590566743049" duration="4570000" />
       <workItem from="1590615144721" duration="19923000" />
-      <workItem from="1590737580351" duration="600000" />
+      <workItem from="1590737580351" duration="7819000" />
     </task>
     <servers />
   </component>
@@ -245,45 +237,45 @@
     </state>
     <state x="308" y="299" key="FileChooserDialogImpl/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590652101483" />
     <state x="308" y="299" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1588119437475" />
-    <state width="1815" height="339" key="GridCell.Tab.0.bottom" timestamp="1590704116723">
+    <state width="1815" height="339" key="GridCell.Tab.0.bottom" timestamp="1590748713040">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.bottom/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963472" />
-    <state width="1815" height="339" key="GridCell.Tab.0.bottom/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590704116723" />
+    <state width="1815" height="339" key="GridCell.Tab.0.bottom/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590748713040" />
     <state width="1815" height="250" key="GridCell.Tab.0.bottom/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
     <state width="1877" height="339" key="GridCell.Tab.0.bottom/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588259415962" />
     <state width="1237" height="152" key="GridCell.Tab.0.bottom/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142084" />
     <state width="912" height="173" key="GridCell.Tab.0.bottom/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="1815" height="339" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1590672455768" />
-    <state width="1815" height="339" key="GridCell.Tab.0.center" timestamp="1590704116722">
+    <state width="1815" height="339" key="GridCell.Tab.0.center" timestamp="1590748713040">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.center/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.center/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963472" />
-    <state width="1815" height="339" key="GridCell.Tab.0.center/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590704116722" />
+    <state width="1815" height="339" key="GridCell.Tab.0.center/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590748713040" />
     <state width="1815" height="250" key="GridCell.Tab.0.center/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
     <state width="1877" height="339" key="GridCell.Tab.0.center/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588259415962" />
     <state width="1237" height="152" key="GridCell.Tab.0.center/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142083" />
     <state width="912" height="173" key="GridCell.Tab.0.center/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="1815" height="339" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1590672455768" />
-    <state width="1815" height="339" key="GridCell.Tab.0.left" timestamp="1590704116722">
+    <state width="1815" height="339" key="GridCell.Tab.0.left" timestamp="1590748713040">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.left/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.left/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963471" />
-    <state width="1815" height="339" key="GridCell.Tab.0.left/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590704116722" />
+    <state width="1815" height="339" key="GridCell.Tab.0.left/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590748713040" />
     <state width="1815" height="250" key="GridCell.Tab.0.left/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
     <state width="1877" height="339" key="GridCell.Tab.0.left/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588259415962" />
     <state width="1237" height="152" key="GridCell.Tab.0.left/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142083" />
     <state width="912" height="173" key="GridCell.Tab.0.left/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@937.-1080.1920.1050" timestamp="1588097389674" />
     <state width="1815" height="339" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1590672455768" />
-    <state width="1815" height="339" key="GridCell.Tab.0.right" timestamp="1590704116722">
+    <state width="1815" height="339" key="GridCell.Tab.0.right" timestamp="1590748713040">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="883" height="250" key="GridCell.Tab.0.right/62.0.1858.1080/-1680.592.1344.810@62.0.1858.1080" timestamp="1587918510089" />
     <state width="1815" height="250" key="GridCell.Tab.0.right/62.0.1858.1080/-1920.534.1280.689/937.-1080.1920.1050@62.0.1858.1080" timestamp="1587938963472" />
-    <state width="1815" height="339" key="GridCell.Tab.0.right/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590704116722" />
+    <state width="1815" height="339" key="GridCell.Tab.0.right/62.0.1858.1080/892.-1080.1280.689@62.0.1858.1080" timestamp="1590748713040" />
     <state width="1815" height="250" key="GridCell.Tab.0.right/62.0.1858.1080/933.-1080.1920.1050@62.0.1858.1080" timestamp="1588002867603" />
     <state width="1877" height="339" key="GridCell.Tab.0.right/62.0.1858.1080/933.-1080.1920.1050@933.-1080.1920.1050" timestamp="1588259415962" />
     <state width="1237" height="152" key="GridCell.Tab.0.right/62.0.1858.1080/937.-1080.1920.1050/-1920.534.1280.689@-1920.534.1280.689" timestamp="1588018142084" />
@@ -297,7 +289,7 @@
     <state x="62" y="176" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1588810794750" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MicroCourses$coding4.coverage" NAME="coding4 Coverage Results" MODIFIED="1588975839227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonOpti/Coding4" />
+    <SUITE FILE_PATH="coverage/MicroCourses$coding4.coverage" NAME="coding4 Coverage Results" MODIFIED="1590748713020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonOpti/Coding4" />
     <SUITE FILE_PATH="coverage/MicroCourses$hash_bcypt.coverage" NAME="hash_bcypt Coverage Results" MODIFIED="1590672455747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Rainbow/Mission1" />
     <SUITE FILE_PATH="coverage/MicroCourses$mission1.coverage" NAME="mission1 Coverage Results" MODIFIED="1590677998079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Mission1" />
     <SUITE FILE_PATH="coverage/MicroCourses$pygramodel.coverage" NAME="pygramodel Coverage Results" MODIFIED="1590658278565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding2" />
@@ -306,12 +298,13 @@
     <SUITE FILE_PATH="coverage/MicroCourses$Mining.coverage" NAME="Mining Coverage Results" MODIFIED="1588807951084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Coding2" />
     <SUITE FILE_PATH="coverage/MicroCourses$nGram.coverage" NAME="nGram Coverage Results" MODIFIED="1587775617562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Mission2" />
     <SUITE FILE_PATH="coverage/MicroCourses$mission2__1_.coverage" NAME="mission2 (1) Coverage Results" MODIFIED="1588117751697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Mission2" />
-    <SUITE FILE_PATH="coverage/MicroCourses$coding3.coverage" NAME="coding3 Coverage Results" MODIFIED="1588814330886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonOpti/Coding3" />
     <SUITE FILE_PATH="coverage/MicroCourses$mission2_1.coverage" NAME="mission2_1 Coverage Results" MODIFIED="1590679777942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Mission2" />
+    <SUITE FILE_PATH="coverage/MicroCourses$coding3.coverage" NAME="coding3 Coverage Results" MODIFIED="1590741606925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonOpti/Coding3" />
     <SUITE FILE_PATH="coverage/MicroCourses$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1587747920366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding2" />
     <SUITE FILE_PATH="coverage/MicroCourses$project1.coverage" NAME="project1 Coverage Results" MODIFIED="1590667455674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Project1" />
     <SUITE FILE_PATH="coverage/MicroCourses$mission3.coverage" NAME="mission3 Coverage Results" MODIFIED="1588259415955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Rainbow/Mission3" />
     <SUITE FILE_PATH="coverage/MicroCourses$Coding1.coverage" NAME="Coding1 Coverage Results" MODIFIED="1590704116716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BlockChain/Coding1" />
     <SUITE FILE_PATH="coverage/MicroCourses$corpustats.coverage" NAME="corpustats Coverage Results" MODIFIED="1587743700896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WordPrediction/Coding1" />
+    <SUITE FILE_PATH="coverage/MicroCourses$coding2.coverage" NAME="coding2 Coverage Results" MODIFIED="1590739612027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonOpti/Coding2" />
   </component>
 </project>

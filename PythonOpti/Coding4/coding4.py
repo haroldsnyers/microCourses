@@ -10,7 +10,7 @@ class Memoize:
         self.memo = {}  # keeps track of previous runs
 
     def __call__(self, *args):
-        # checks if answer already in cache, otherwise execute the function
+        # checks if answer already is in cache, otherwise execute the function
         if args not in self.memo:
             self.memo[args] = self.fn(*args)
         return self.memo[args]
@@ -39,49 +39,25 @@ print('#'*20 + "With memoize" + '#'*20)
 print(fibonacci_mem.memo)
 fibonacci_mem.memo.clear()
 print(fibonacci_mem.memo)
-
-memory_1 = memory_profiler.memory_usage()
-print(timeit.timeit('fibonacci_mem(35)', globals=globals(), number=1))
-memory_2 = memory_profiler.memory_usage()
-memory_diff = memory_2[0] - memory_1[0]
-print("Method with memoize took {0} as memory".format(memory_diff))
-print(fibonacci_mem.memo)
-
-
-memory_1 = memory_profiler.memory_usage()
-print(timeit.timeit('fibonacci_mem(35)', globals=globals(), number=1))
-memory_2 = memory_profiler.memory_usage()
-memory_diff = memory_2[0] - memory_1[0]
-print("Method with memoize took {0} as memory".format(memory_diff))
-
-memory_1 = memory_profiler.memory_usage()
-print(timeit.timeit('fibonacci_mem(40)', globals=globals(), number=1))
-memory_2 = memory_profiler.memory_usage()
-memory_diff = memory_2[0] - memory_1[0]
-print("Method with memoize took {0} as memory".format(memory_diff))
-
-print(fibonacci_mem.memo)
+for x in (145, 145, 150):
+    memory_1 = memory_profiler.memory_usage()
+    print("time to execute : " + str(timeit.timeit('fibonacci_mem(x)', globals=globals(), number=1)))
+    memory_2 = memory_profiler.memory_usage()
+    memory_diff = memory_2[0] - memory_1[0]
+    print("Method with memoize took {0} as memory".format(memory_diff))
+    # print(fibonacci_mem.memo)
+    print('\n')
 
 # #################### without memoize ###############################
-print('#'*20 + "Without memoize" + '#'*20)
+print("\n" + '#'*20 + "Without memoize" + '#'*20)
 
-memory_1 = memory_profiler.memory_usage()
-print(timeit.timeit('fibonacci(35)', globals=globals(), number=1))
-memory_2 = memory_profiler.memory_usage()
-memory_diff = memory_2[0] - memory_1[0]
-print("Method without memoize took {0} as memory".format(memory_diff))
+for y in (35, 35, 25):
+    memory_1 = memory_profiler.memory_usage()
+    print("time to execute : " + str(timeit.timeit('fibonacci(y)', globals=globals(), number=1)))
+    memory_2 = memory_profiler.memory_usage()
+    memory_diff = memory_2[0] - memory_1[0]
+    print("Method without memoize took {0} as memory".format(memory_diff))
 
-memory_1 = memory_profiler.memory_usage()
-print(timeit.timeit('fibonacci(35)', globals=globals(), number=1))
-memory_2 = memory_profiler.memory_usage()
-memory_diff = memory_2[0] - memory_1[0]
-print("Method without memoize took {0} as memory".format(memory_diff))
-
-memory_1 = memory_profiler.memory_usage()
-print(timeit.timeit('fibonacci(25)', globals=globals(), number=1))
-memory_2 = memory_profiler.memory_usage()
-memory_diff = memory_2[0] - memory_1[0]
-print("Method without memoize took {0} as memory".format(memory_diff))
 
 
 
