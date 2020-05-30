@@ -44,9 +44,10 @@ if user_name is not None:
         result = False
     try:
         """Not working"""
-        bcrypt.checkpw(str(pwd).encode('utf8'), hash_user.encode('utf8'))
+        bcrypt.checkpw(str(pwd).encode('utf8'), salt_user.encode('utf8'))
         result1 = True
-    except:
+    except e as Exception :
+        print(e)
         result1 = False
     print("Bcrypt verify (correct password):", result)
     print("Bcrypt verify (correct password):", result1)

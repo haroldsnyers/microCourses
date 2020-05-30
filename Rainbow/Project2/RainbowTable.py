@@ -42,10 +42,11 @@ class RainbowGenerator:
             generates a list (nop duplicates) of password of a given size
             :returns password list to generate rainbow table from
         """
+        self.passwords = []
         while len(self.passwords) < self.rows:
             word = self.password_generator()
             if word not in self.passwords:
-                self.passwords += word
+                self.passwords.append(word)
         return self.passwords
 
     def hash_word(self, word):
@@ -273,7 +274,7 @@ class RainbowGenerator:
 
 
 # rain = RainbowGenerator(7, passwords)
-rain = RainbowGenerator(7, 1000, hash_type="sha256")
+rain = RainbowGenerator(7, 1001, hash_type="sha256")
 rain.test_rain_word_not_in_list()
 rain.test_rain_with_word_in_list()
 

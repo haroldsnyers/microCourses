@@ -24,15 +24,22 @@ def exchange_safely_message(plain_text):
     """
     try:
         # GENERATE NEW KEYPAIR
-        private_key = rsa.generate_private_key(
+        private_key_2 = rsa.generate_private_key(
             public_exponent=65537,
             key_size=4096,
             backend=default_backend()
         )
-        public_key = private_key.public_key()
+        public_key_2 = private_key_2.public_key()
+
+        private_key_1 = rsa.generate_private_key(
+            public_exponent=65537,
+            key_size=4096,
+            backend=default_backend()
+        )
+        public_key_1 = private_key_1.public_key()
 
         # ENCRYPTION
-        cipher_text_bytes = public_key.encrypt(
+        cipher_text_bytes = public_key_2.encrypt(
             plaintext=plain_text.encode('utf-8'),
             # padding to obscure real message (many begin or end the same way)
             # mgf : mask generation function -> enables to have any output size
@@ -49,7 +56,7 @@ def exchange_safely_message(plain_text):
         logger.info("Cypher_text : %s", cipher_text)
 
         # SIGN DATA/STRING
-        signature = private_key.sign(
+        signature = private_key_1.sign(
             data=plain_text.encode('utf-8'),
             # Probabilistic Signature Scheme
             padding=padding.PSS(
@@ -62,8 +69,9 @@ def exchange_safely_message(plain_text):
         logger.info("Signature: %s", base64.urlsafe_b64encode(signature))
 
         # VERIFY JUST CREATED SIGNATURE USING PUBLIC KEY
+        # add crypt and not plain text
         try:
-            public_key.verify(
+            public_key_1.verify(
                 signature=signature,
                 data=plain_text.encode('utf-8'),
                 padding=padding.PSS(
@@ -80,7 +88,7 @@ def exchange_safely_message(plain_text):
 
         if is_signature_correct:
             # DECRYPTION
-            decrypted_cipher_text_bytes = private_key.decrypt(
+            decrypted_cipher_text_bytes = private_key_2.decrypt(
                 ciphertext=base64.urlsafe_b64decode(cipher_text),
                 padding=padding.OAEP(
                     mgf=padding.MGF1(algorithm=hashes.SHA256()),

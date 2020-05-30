@@ -28,7 +28,7 @@ class HashChain:
         while len(self.passwords) < self.number_of_passwords:
             word = self.password_generator()
             if word not in self.passwords:
-                self.passwords += word
+                self.passwords.append(word)
 
     def hash(self, password):
         """
@@ -70,7 +70,7 @@ class HashChain:
         hash = self.hash(a)
         hash_chain_temp.append(hash)
         self.hashes_covered.append(hash)
-        print(hash_chain_temp)
+        # print(hash_chain_temp)
         self.hash_chain.append(hash_chain_temp)
 
     def create_table(self):
@@ -88,6 +88,6 @@ class HashChain:
         print("This table contains collisions : " + str((len(self.hashes_covered) != len(set(self.hashes_covered)))))
 
 
-hash_chain = HashChain()
+hash_chain = HashChain(number_of_passwords=1000, password_length=2)
 hash_chain.create_table()
 hash_chain.check_collisions()

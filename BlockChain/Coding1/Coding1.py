@@ -66,10 +66,13 @@ class BlockChain:
         :return: True
         """
         last_block = self.last_block
+        last_hash = last_block.hash
+        delattr(last_block, "hash")
         new_block = Block(index=last_block.index + 1,
                           timestamp=time.time(),
                           prevHash=last_block.compute_hash(),
                           data=data)
+        last_block.hash = last_hash
         new_block.hash = new_block.compute_hash()
         self.chains.append(new_block)
         if not self.is_valid:
