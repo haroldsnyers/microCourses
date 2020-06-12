@@ -27,13 +27,40 @@ class Block:
     def __str__(self):
         return '=== Block ===\nContent: {}\nNonce  : {}\nHash   : {}'.format(self._content, self._nonce, self._hash)
 
+    def sum_numbers_hash(self):
+        result = 0
+        for item in self._update_hash():
+            try: 
+                result += int(item)
+            except: 
+                pass
+        return result
+
+    def count_occurrences(self):
+        dico = {}
+        for elem in self._update_hash():
+            try:
+                dico[elem] += 1
+            except:
+                dico[elem] = 1
+        value_max = 0
+        for key in dico:
+            if dico[key] > value_max:
+                value_max = int(dico[key])
+
+        return value_max
+
     def algo_nonce(self):
-        nonce = 0
-        while not self._update_hash().startswith('0' * self.difficulty):
+        nonce = 0  
+        while (
+            not self._update_hash().startswith('0' * self.difficulty)
+            ) or (
+                self.sum_numbers_hash() % self.difficulty
+            ) or (
+                self.count_occurrences() < self.difficulty + 14):
+            # (x % y) is the same as (x % y != 0)
             nonce += 1
             self._nonce = nonce
-            self._update_hash()
-
 
 if __name__ == '__main__':
     a = Block('Foo')
