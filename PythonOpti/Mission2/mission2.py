@@ -7,7 +7,7 @@ __course__ = 'Micro Courses'
 __assessment__ = 'Mission 2'
 __title__ = 'Measuring time execution'
 __date__ = '2020/01/12'
-__description__ = 'Python optimisation showing time optimisation of sum \n' \
+__description__ = 'Python optimisation showing time optimisation of some \n' \
                   '             function compared to while and for loop'
 print('# ' + '=' * 78)
 print('Author: ' + __author__)
@@ -27,21 +27,32 @@ import itertools
 import matplotlib.pyplot as plt
 
 
-def updateZips_global():
-    for zipcode in newZipcodes:
-        Zipcodes.append(zipcode.strip())
+def updateZips_global(list_of_numbers):
+    list_of_sum = []
+    for number in list_of_numbers:
+        list_of_sum.append(multi(number))
+    return list_of_sum
 
 
-def updateZipsWithMap_global(Zipcodes):
-    Zipcodes += map(str.strip, newZipcodes)
+def multi(n):
+    return (n, n*n)
 
 
-def updateZipsWithListCom_global(Zipcodes):
-    Zipcodes += [iter.strip() for iter in newZipcodes]
+def updateZipsWithMap_global(list_of_numbers):
+    list_of_sum = []
+    list_of_sum = map(multi, list_of_numbers)
+    return list_of_sum
+
+def updateZipsWithListCom_global(list_of_numbers):
+    list_of_sum = []
+    list_of_sum += [multi(iter) for iter in list_of_numbers]
+    return list_of_sum
 
 
-def updateZipsWithGenExp_global():
-    return itertools.chain(Zipcodes, (iter.strip() for iter in newZipcodes))
+def updateZipsWithGenExp_global(list_of_numbers):
+    list_of_sum = []
+    itertools.chain(list_of_sum, (multi(iter) for iter in list_of_numbers))
+    return list_of_sum
 
 
 result_updateZips_global = []
@@ -53,39 +64,41 @@ if __name__ == '__main__':
 
     fig = plt.figure(figsize=(11.69, 8.27))
     fig.suptitle('python Optimisation', fontsize=16, y=0.95)
-    fig.subplots_adjust(top=3.8)
+    fig.subplots_adjust(top=1)
     ax1 = fig.add_subplot(111)
 
-    Zipcodes = ['121212', '232323', '434334']
+    # Zipcodes = ['121212', '232323', '434334']
     m = range(25, 400, 25)
     print(m)
     for n in m:
-        print('Number of zipcodes to append : {}'.format(n))
-        newZipcodes = ['  131313 ' for i in range(n)]
+        print('Number of numbers to add : {}'.format(n))
+        # print('Number of zipcodes to append : {}'.format(n))
+        # newZipcodes = ['  131313 ' for i in range(n)]
+        numbers_not_gen = [i for i in range(n)]
+        numbers_gen = range(n)
 
         repeats = 10000
-
-        t = timeit.Timer('updateZips_global()', setup='from __main__ import updateZips_global')
+        t = timeit.Timer('updateZips_global(numbers_gen)', setup='from __main__ import updateZips_global, numbers_gen')
         sec = t.timeit(repeats) / repeats
         sec1 = t.timeit(repeats)
         result_updateZips_global.append(sec)
 
-        Zipcodes = ['121212', '232323', '434334']
-        t = timeit.Timer('updateZipsWithMap_global(Zipcodes)',
-                         setup='from __main__ import updateZipsWithMap_global, Zipcodes')
+        # Zipcodes = ['121212', '232323', '434334']
+        t = timeit.Timer('updateZipsWithMap_global(numbers_gen)',
+                         setup='from __main__ import updateZipsWithMap_global, numbers_gen')
         sec = t.timeit(repeats) / repeats
         sec1 = t.timeit(repeats)
         result_updateZipsWithMap_global.append(sec)
 
-        Zipcodes = ['121212', '232323', '434334']
-        t = timeit.Timer('updateZipsWithListCom_global(Zipcodes)',
-                         setup='from __main__ import updateZipsWithListCom_global, Zipcodes')
+        # Zipcodes = ['121212', '232323', '434334']
+        t = timeit.Timer('updateZipsWithListCom_global(numbers_gen)',
+                         setup='from __main__ import updateZipsWithListCom_global, numbers_gen')
         sec = t.timeit(repeats) / repeats
         sec1 = t.timeit(repeats)
         result_updateZipsWithListCom_global.append(sec)
 
-        Zipcodes = ['121212', '232323', '434334']
-        t = timeit.Timer('updateZipsWithGenExp_global()', setup='from __main__ import updateZipsWithGenExp_global')
+        # Zipcodes = ['121212', '232323', '434334']
+        t = timeit.Timer('updateZipsWithGenExp_global(numbers_gen)', setup='from __main__ import updateZipsWithGenExp_global, numbers_gen')
         sec = t.timeit(repeats) / repeats
         sec1 = t.timeit(repeats)
         result_updateZipsWithGenExp_global.append(sec)
